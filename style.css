@@ -1,0 +1,248 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; outline: 0;}
+
+.whole{
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 21px;
+    color: #000;
+    background: #fff;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.spotlight{
+    border-bottom:solid #ee2a24;
+    overflow-y: hidden;
+    float: left;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    border-top:solid white;
+}
+
+.spotlightimg{
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    padding: 0;
+    float: left;
+    width: 100%;
+    background: #ee2a24;
+}
+
+.sectionbooks{
+    border-bottom:solid #ee2a24;
+    padding-top: 5%;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.booksdiv{
+    width: 70%;
+    height: 100%;
+}
+
+.gridpic{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    padding-bottom: 8%;
+    padding-top: 8%;
+}
+.gridpic img{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    width: 250px;
+    height: 260px;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background: #ee2a24;
+}
+.aboutcello{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.productscello{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.quiklinks{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.getintouch{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.onhover:hover{
+    cursor: pointer;
+    color: #ff9800;
+}
+.onhover{
+    font-family: sans-serif;
+}
+
+
+#book1{
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+
+#book2{
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+
+#book3{
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+
+#book4{
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+
+#book5{
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+
+#book6{
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+.listclass{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.listbook1{
+    width: 33%;
+    height: 100%;
+}
+.listbook1-1{
+    width: 100%;
+    height: auto;
+}
+.listbook1-2{
+    width: 100%;
+    height: auto;
+}
+.listbook2-1{
+    width: 100%;
+    height: auto;
+}
+.listbook2-2{
+    width: 100%;
+    height: auto;
+}
+.listbook3-1{
+    width: 100%;
+    height: auto;
+}
+.listbook3-2{
+    width: 100%;
+    height: auto;
+}
+
+.listbook2{
+    width: 33%;
+    height: 100%;
+}
+.listbook3{
+    width: 33%;
+    height: 100%;
+}
+#booktextstyle{
+    color: #ee2a24;
+    text-align: center;
+    font-size: 1.3vw;
+}
+
+
+@media screen and (min-width:0px){
+    .image-nav{
+        width: 60px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    #listhome{
+        color: white;
+        border-bottom: 1px solid white ;
+    }
+    
+    #listabout{
+        color: white;
+        border-bottom: 1px solid white ;
+    }
+    
+    #listcsr{
+        color: white;
+        border-bottom: 1px solid white ;
+    }
+    
+    #listproducts{
+        color: white;
+        border-bottom: 1px solid white ;
+    }
+    
+    #listcontact{
+        color: white;
+        border-bottom: 1px solid white ;
+    }
+
+    #fbimg{
+        width: 20px;
+        height: 20px;
+    }
+
+    #twitimg{
+        width: 20px;
+        height: 20px;
+    }
+
+    #insimg{
+        width: 20px;
+        height: 20px;
+        
+    }
+    #listins{
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+
+    .listlogo{
+        float: right;
+    }
+
+}
+
+@media screen and (min-width:992px){
+    .image-nav{
+        width: 90px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
